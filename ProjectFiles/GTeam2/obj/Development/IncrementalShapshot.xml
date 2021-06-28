@@ -1,0 +1,103 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>GTeam2</Database>
+    <Server>LAPTOP-38TPTR5F\SERVERNAME1</Server>
+    <ConnectionString>Data Source=LAPTOP-38TPTR5F\SERVERNAME1;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>Default</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>y1qBQNH1jr8PybWVuZtXM8b16+g=4/24/2021 2:38:28 AM4/24/2021 2:38:27 AM</TimeStamp>
+        <ID>
+          <String>G Team2</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>36Pl6C+YHW714DC1PF/+tp+FS/g=4/24/2021 2:56:09 AM4/24/2021 2:42:10 AM</TimeStamp>
+        <ID>
+          <String>G Team2</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>K59MHgGAHUmCM49v82JVNjM4qaw=4/24/2021 3:08:55 AM4/24/2021 2:56:07 AM</TimeStamp>
+        <ID>
+          <String>Overs</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>CZBhvirBKQ9F42gPki+Ko4gqQHA=4/24/2021 3:08:54 AM4/24/2021 2:56:08 AM</TimeStamp>
+        <ID>
+          <String>Ball</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>i31lwyTQAMv+cEzDsngYPaK+Xgo=4/24/2021 3:08:54 AM4/24/2021 2:56:08 AM</TimeStamp>
+        <ID>
+          <String>Batsman</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Gg2FdA3rnc04WeuBET9xe0ztWu0=4/24/2021 3:08:54 AM4/24/2021 2:56:08 AM</TimeStamp>
+        <ID>
+          <String>Non Striker</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>ckN2yJCDEEH4uP+8QcXqz5JUzG4=4/24/2021 3:08:54 AM4/24/2021 2:56:08 AM</TimeStamp>
+        <ID>
+          <String>Bowler</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>j4wVHdakDYZBvBmFz0iagDjTTNw=4/24/2021 3:08:54 AM4/24/2021 2:56:08 AM</TimeStamp>
+        <ID>
+          <String>Batting Team</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>dVOgxg193TZUdezq13Zi/kastAQ=4/24/2021 3:08:53 AM4/24/2021 2:56:08 AM</TimeStamp>
+        <ID>
+          <String>Bowling Team</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>r5kMtaLIrBQ5bM+tFjCaY7AYdx8=4/24/2021 3:08:55 AM4/24/2021 2:55:50 AMcXPW3QzbhEsu5a77LCYksNU0KFI=4/24/2021 2:56:10 AM4/24/2021 2:56:06 AM</TimeStamp>
+        <ID>
+          <String>G Team2</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>w2jHiEdeFLY5f8PfL/woAxG7sAM=4/24/2021 2:21:29 AM4/24/2021 2:21:24 AM</TimeStamp>
+      <ID>
+        <String>GTeam2</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2021-04-24T08:15:35.706667Z</LastDeployed>
+</DeploymentSnapshot>
